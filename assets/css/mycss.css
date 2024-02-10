@@ -10962,3 +10962,18 @@ section.resume-section .resume-section-content {
 
   
 }
+
+.accomp-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10rem;
+}
+.accomp-btn {
+  background-color: #bd5d38;
+  color: white;
+  padding: 1rem;
+  border: 2px solid black;
+  border-radius: 6px;
+  font-size: large;
+}
