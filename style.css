@@ -1,0 +1,16 @@
+.profile-img {
+    width: 50px; /* Adjust as needed */
+    height: 50px; /* Adjust as needed */
+    object-fit: cover; /* Ensures the image covers the entire container */
+    border-radius: 50%; /* Ensures the image is circular */
+}
+.background-image {
+    background-image: url('assets/images/background.jpg'); /* Replace 'path/to/your/background-image.jpg' with your actual image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Ensures the background covers the entire viewport height */
+    overflow-x: hidden; /* Ensures no horizontal overflow */
+    position: relative; /* Ensures proper positioning of children */
+}
+
